@@ -144,6 +144,37 @@
                   }
                 ]
               },
+              "children": [
+                  {
+                    "label": "Stephen Seeber",
+                    "people": [
+                      "Stephen Seeber"
+                    ],
+                    "spouses": [
+                      {
+                        "name": "Carol Freedman"
+                      },
+                    ],
+                    "children": [
+                      {
+                        "label": "William Seeber",
+                        "people": [
+                          "William Seeber"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Aaron Seeber",
+                        "people": [
+                          "Aaron Seeber"
+                        ],
+                        "children": []
+                      },
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "label": "Ralph J. Schlesinger",
                 "people": [
