@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"UTF-8\" />
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+  <title>Seeber Family Tree – Interactive</title>
+  <link rel=\"stylesheet\" href=\"style.css\" />
+</head>
+<body>
+<header>
+  <h1>Seeber Family Tree</h1>
+  <p class=\"subtitle\">Interactive lineage explorer – click a person to expand details</p>
+  <nav>
+    <a href=\"#teitelbaum\">Teitelbaum</a>
+    <a href=\"#schlesinger\">Schlesinger</a>
+    <a href=\"#endervelt\">Endervelt</a>
+    <a href=\"#swerbilov\">Swerbilov</a>
+  </nav>
+  <div class=\"search-bar\">
+    <input id=\"searchInput\" type=\"search\" placeholder=\"Search a name… (e.g., Dorothy, Boris, Magda)\" aria-label=\"Search people\">
+  </div>
+</header>
+<main>
+  <section class=\"diagram-section\">
+    <h2>Classic Tree Diagrams</h2>
+    <p>These images show the four branches. Scroll below for interactive, expandable person lists.</p>
+    <div class=\"grid\">
+      <figure>
+        <img src=\"images/teitelbaum_branch.png\" alt=\"Teitelbaum branch diagram\">
+        <figcaption id=\"teitelbaum\">Teitelbaum Branch</figcaption>
+      </figure>
+      <figure>
+        <img src=\"images/schlesinger_branch.png\" alt=\"Schlesinger branch diagram\">
+        <figcaption id=\"schlesinger\">Schlesinger Branch</figcaption>
+      </figure>
+      <figure>
+        <img src=\"images/endervelt_branch.png\" alt=\"Endervelt branch diagram\">
+        <figcaption id=\"endervelt\">Endervelt Branch</figcaption>
+      </figure>
+      <figure>
+        <img src=\"images/swerbilov_branch.png\" alt=\"Swerbilov branch diagram\">
+        <figcaption id=\"swerbilov\">Swerbilov Branch</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class=\"people-section\">
+    <h2>Interactive People Directory</h2>
+    <p>Click a name to expand details. Use the search box above to filter.</p>
+    <div id=\"peopleContainer\" class=\"people-container\" aria-live=\"polite\"></div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2025 Seeber Family History Project</p>
+</footer>
+<script src=\"app.js\"></script>
+</body>
+</html>

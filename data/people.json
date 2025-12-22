@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Morris Teitelbaum",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Ethel Sempliner"
+    ],
+    "children": [
+      "Sophie Teitelbaum",
+      "Henry Teitelbaum",
+      "Selina Teitelbaum",
+      "Magda Teitelbaum",
+      "Stanley Teitelbaum"
+    ],
+    "notes": "Owned a restaurant/tavern and bottled seltzer in Cushow, Hungary. Emigrated to the U.S. ~1921–1922 with family."
+  },
+  {
+    "name": "Ethel Sempliner",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Morris Teitelbaum"
+    ],
+    "children": [
+      "Sophie Teitelbaum",
+      "Henry Teitelbaum",
+      "Selina Teitelbaum",
+      "Magda Teitelbaum",
+      "Stanley Teitelbaum"
+    ],
+    "notes": "Matriarch of the Teitelbaum family; emigrated from Hungary; remained close with children after Morris’s death."
+  },
+  {
+    "name": "Sophie Teitelbaum Marks Curkovich",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Sol Marks",
+      "Ted Curkovich"
+    ],
+    "children": [],
+    "notes": "Emigrated to the U.S. to marry; lived in Standish, Michigan; successful in real estate, estate sales, and mortgages."
+  },
+  {
+    "name": "Henry Teitelbaum",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Deborah (Debbie)"
+    ],
+    "children": [],
+    "notes": "Married through a matchmaker; family emigrated from England; no children."
+  },
+  {
+    "name": "Selina Teitelbaum Heisler",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Harry Heisler"
+    ],
+    "children": [
+      "Louis Heisler"
+    ],
+    "notes": "Close-knit gatherings with siblings and cousins in NJ; Greenwood Lake picnics."
+  },
+  {
+    "name": "Louis Heisler",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Barbara (Bobby) Peters"
+    ],
+    "children": [
+      "Beth Heisler",
+      "Sandee Lynn Heisler"
+    ],
+    "notes": "NJ family line; children Beth and Sandee Lynn."
+  },
+  {
+    "name": "Sandee Lynn Heisler",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Clement Ethan Whitman"
+    ],
+    "children": [
+      "Blaise Michael Whitman",
+      "Kevin Benjamin Whitman",
+      "Hanna Jessica Whitman"
+    ],
+    "notes": "Whitman family line."
+  },
+  {
+    "name": "Magda (Margaret) Teitelbaum Schlesinger",
+    "branch": "Teitelbaum",
+    "spouses": [
+      "Eugene (Jeno’) Schlesinger"
+    ],
+    "children": [
+      "Dorothy Claire Schlesinger Seeber",
+      "Ralph J. Schlesinger",
+      "Joan Ruth Schlesinger"
+    ],
+    "notes": "Met Eugene at MUNKOS OTHUN; central link between Teitelbaum and Schlesinger branches."
+  },
+  {
+    "name": "Dorothy Claire Schlesinger (Swerbilov) Seeber",
+    "branch": "Teitelbaum/Schlesinger",
+    "spouses": [
+      "Boris (Swerbilov) Seeber"
+    ],
+    "children": [
+      "Kathryn Seeber Magdar Reuter",
+      "Stephen Alan Seeber",
+      "Michael John Seeber"
+    ],
+    "notes": "Corresponded daily with Boris for four years during his Air Force service; worked while Boris finished school; later returned to college evenings."
+  },
+  {
+    "name": "Kathryn Seeber Magdar Reuter",
+    "branch": "Teitelbaum/Schlesinger",
+    "spouses": [
+      "Joseph Magdar",
+      "Mike Reuter"
+    ],
+    "children": [
+      "Julie Magdar",
+      "Eric Magdar",
+      "Adam Magdar"
+    ],
+    "notes": "Descendant line through Magdar/Reuter."
+  },
+  {
+    "name": "Ralph J. Schlesinger",
+    "branch": "Teitelbaum/Schlesinger",
+    "spouses": [
+      "Marlene Baker",
+      "Betty Schaeffer Gold"
+    ],
+    "children": [
+      "Terri Schlesinger",
+      "Wendy Schlesinger"
+    ],
+    "notes": "Children Terri (with Richard Kim) and Wendy (with Jordan Bentley/Brian Rupp)."
+  },
+  {
+    "name": "Joan Ruth Schlesinger",
+    "branch": "Teitelbaum/Schlesinger",
+    "spouses": [
+      "Gerald Baker"
+    ],
+    "children": [
+      "Jill Baker",
+      "Jeffrey Baker",
+      "Eric Baker"
+    ],
+    "notes": "Children include Jill (with David Israel), Jeffrey (adopted; with Wendy Baker), Eric (with Daphna Ascoli Baker)."
+  },
+  {
+    "name": "Julius (Gyula) Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [
+      "Ilka Heimler"
+    ],
+    "children": [
+      "Carl (Calman) Schlesinger",
+      "Julia (Jolan) Schlesinger",
+      "Alex (Sandor) Schlesinger",
+      "Eugene (Jeno’) Schlesinger"
+    ],
+    "notes": "Budapest; died of tuberculosis; children orphaned and split among relatives."
+  },
+  {
+    "name": "Ilka Heimler Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [
+      "Julius (Gyula) Schlesinger"
+    ],
+    "children": [
+      "Carl (Calman) Schlesinger",
+      "Julia (Jolan) Schlesinger",
+      "Alex (Sandor) Schlesinger",
+      "Eugene (Jeno’) Schlesinger"
+    ],
+    "notes": "Died of tuberculosis; children rotated among relatives for meals and lodging."
+  },
+  {
+    "name": "Carl (Calman) Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [
+      "Regina Gottlieb"
+    ],
+    "children": [
+      "Robert Schlesinger",
+      "Jean Schlesinger"
+    ],
+    "notes": "Eldest; tinsmith; emigrated first; co-founded Pollak Manufacturing in Kearny, NJ; sponsored siblings to the U.S."
+  },
+  {
+    "name": "Robert Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [
+      "Betsy Marks"
+    ],
+    "children": [
+      "Paul Schlesinger",
+      "Molly Schlesinger",
+      "Jane"
+    ],
+    "notes": "Descendant line with Betsy Marks."
+  },
+  {
+    "name": "Jean Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [
+      "Robert Saber",
+      "Jerry Saber"
+    ],
+    "children": [
+      "Peter Saber",
+      "Barbara Saber"
+    ],
+    "notes": "Children: Peter (with Mariel Sibug), Barbara (with Larry Willis)."
+  },
+  {
+    "name": "Julia (Jolan) Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [],
+    "children": [],
+    "notes": "Never married; self-supporting; owned infants’ and children’s clothing store; helped finance relatives’ education."
+  },
+  {
+    "name": "Alex (Sandor) Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [
+      "Jess Torrence"
+    ],
+    "children": [],
+    "notes": "WWI service; wounded; health issues; later immigrated via Canada; bookkeeper at Pollak; fine bridge player; no children; died of tuberculosis."
+  },
+  {
+    "name": "Eugene (Jeno’) Schlesinger",
+    "branch": "Schlesinger",
+    "spouses": [
+      "Magda (Margaret) Teitelbaum"
+    ],
+    "children": [
+      "Dorothy Claire Schlesinger Seeber",
+      "Ralph J. Schlesinger",
+      "Joan Ruth Schlesinger"
+    ],
+    "notes": "Partner at Star Stationery Co.; met Magda at MUNKOS OTHUN."
+  },
+  {
+    "name": "Morris Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Gussie Fishman"
+    ],
+    "children": [
+      "Nancy Kate Endervelt",
+      "Jack Endervelt",
+      "Betty (Billie) Endervelt",
+      "Al Endervelt",
+      "Dorothy Endervelt",
+      "David Endervelt"
+    ],
+    "notes": "Emigrated from Poland (1904); family faced financial hardship in NYC; children worked young."
+  },
+  {
+    "name": "Gussie Fishman Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Morris Endervelt"
+    ],
+    "children": [
+      "Nancy Kate Endervelt",
+      "Jack Endervelt",
+      "Betty (Billie) Endervelt",
+      "Al Endervelt",
+      "Dorothy Endervelt",
+      "David Endervelt"
+    ],
+    "notes": "Matriarch; raised family under difficult conditions in the U.S."
+  },
+  {
+    "name": "Nancy Kate Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Solomon (Sol) Swerbilov"
+    ],
+    "children": [
+      "Boris (Swerbilov) Seeber",
+      "Zarvin Swerbilov"
+    ],
+    "notes": "Worked as cashier/bookkeeper at Namm’s; talented singer; later focused on raising family."
+  },
+  {
+    "name": "Jack Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Edna B. Jacobs"
+    ],
+    "children": [
+      "Cynthia Endervelt"
+    ],
+    "notes": "Line includes Joel, Carrie, Aron Weiner via Cynthia & Morris Weiner; Stacy Joy Weiner (Yoel Tobin) and Yoni Meitav."
+  },
+  {
+    "name": "Betty (Billie) Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Sioma Burk"
+    ],
+    "children": [
+      "Dennis Burk",
+      "Gregory Burk"
+    ],
+    "notes": "Studied piano with Leopold Damrosh; later worked with San Francisco Opera singers."
+  },
+  {
+    "name": "Al Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Esther Edelstein"
+    ],
+    "children": [
+      "Sandra Endervelt",
+      "Carole Endervelt"
+    ],
+    "notes": "Descendants include Bruce and Robert Sauer."
+  },
+  {
+    "name": "Dorothy Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Isidor Thompson"
+    ],
+    "children": [
+      "Jacqueline (Jackie) Thompson"
+    ],
+    "notes": "Worked in family bakery; married Isidor Thompson; daughter Jackie married Howard Marylander."
+  },
+  {
+    "name": "David Endervelt",
+    "branch": "Endervelt",
+    "spouses": [
+      "Elizabeth (Billie) Slade"
+    ],
+    "children": [
+      "Jeffrey Endervelt",
+      "Elizabeth (Betsy) Endervelt"
+    ],
+    "notes": "Youngest; able to attend college thanks to siblings’ support."
+  },
+  {
+    "name": "Eliazar Swerbilov",
+    "branch": "Swerbilov",
+    "spouses": [
+      "Hanetta Polikoff"
+    ],
+    "children": [
+      "Solomon (Sol) Swerbilov",
+      "Jack Swerbilow",
+      "Molly (Aunt Vita) Swerbilov"
+    ],
+    "notes": "Orsha, Russia; limited records; one son remained in Russia."
+  },
+  {
+    "name": "Hanetta Polikoff Swerbilov",
+    "branch": "Swerbilov",
+    "spouses": [
+      "Eliazar Swerbilov"
+    ],
+    "children": [
+      "Solomon (Sol) Swerbilov",
+      "Jack Swerbilow",
+      "Molly (Aunt Vita) Swerbilov"
+    ],
+    "notes": "Family connected through Orsha Young Friends Benevolent Society in Brooklyn."
+  },
+  {
+    "name": "Solomon (Sol) Swerbilov",
+    "branch": "Swerbilov",
+    "spouses": [
+      "Nancy Kate Endervelt"
+    ],
+    "children": [
+      "Boris (Swerbilov) Seeber",
+      "Zarvin Swerbilov"
+    ],
+    "notes": "Journeyman typographer; supported widowed sister Molly and nieces; summers in Lake Hiawatha, NJ."
+  },
+  {
+    "name": "Jack Swerbilow",
+    "branch": "Swerbilov",
+    "spouses": [
+      "Rachel (Ray) Gordon"
+    ],
+    "children": [
+      "Bernard Swerbilov",
+      "Helen Swerbilow"
+    ],
+    "notes": "Tailor; owned men’s clothing store in Annapolis serving civilians and Naval Academy; WWII Air Force pilot son Bernard."
+  },
+  {
+    "name": "Molly (Aunt Vita) Swerbilov",
+    "branch": "Swerbilov",
+    "spouses": [
+      "William Conovich"
+    ],
+    "children": [
+      "Rose Conovich",
+      "Rachel Conovich",
+      "Gertrude Conovich",
+      "Sarah (Helen) Conovich"
+    ],
+    "notes": "Widowed early; supported by brother Solomon; daughters’ lines include Koffler, Wanschel, Klein, Leeb."
+  },
+  {
+    "name": "Boris (Swerbilov) Seeber",
+    "branch": "Swerbilov",
+    "spouses": [
+      "Dorothy Claire Schlesinger"
+    ],
+    "children": [
+      "Kathryn Seeber",
+      "Stephen Alan Seeber",
+      "Michael John Seeber"
+    ],
+    "notes": "Air Force service; daily correspondence with Dorothy; changed surname to Seeber during law school; practiced law; died young after seeing first grandchildren."
+  }
+]
