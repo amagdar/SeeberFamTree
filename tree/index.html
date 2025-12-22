@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seeber Family Tree</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Seeber Family Tree</h1>
+    <p>Interactive, click-to-expand view. Use the branch tabs below, or search for any name.</p>
+    <div id="search">
+      <input type="text" id="searchInput" placeholder="Search names (e.g., 'Dorothy', 'Swerbilov')" />
+      <button id="clearBtn" aria-label="Clear">Clear</button>
+    </div>
+    <nav id="branchTabs"></nav>
+  </header>
+
+  <main>
+    <section id="tree"></section>
+    <aside id="card">
+      <h2>Person Card</h2>
+      <div id="cardContent">Select a name to see details here.</div>
+    </aside>
+  </main>
+
+  <footer>
+    <small>Data derived from uploaded family notes. Indicators: (adopted), (div.), (twin), and special notes preserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

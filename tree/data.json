@@ -1,0 +1,1184 @@
+{
+  "branches": [
+    {
+      "id": "teitelbaum",
+      "title": "Dorothy Seeber — Maternal (Teitelbaum / Sempliner)",
+      "root": {
+        "label": "Morris Teitelbaum & Ethel Sempliner",
+        "people": [
+          "Morris Teitelbaum",
+          "Ethel Sempliner"
+        ],
+        "children": [
+          {
+            "label": "Sophie Teitelbaum Marks Curkovich",
+            "people": [
+              "Sophie Teitelbaum"
+            ],
+            "spouses": [
+              {
+                "name": "Sol Marks",
+                "notes": "One Marks child died before 1 yr old (deceased)"
+              },
+              {
+                "name": "Ted Curkovich"
+              }
+            ],
+            "children": []
+          },
+          {
+            "label": "Henry Teitelbaum & Deborah Teitelbaum",
+            "people": [
+              "Henry Teitelbaum",
+              "Deborah Teitelbaum"
+            ],
+            "notes": "No children",
+            "children": []
+          },
+          {
+            "label": "Selina Teitelbaum & Harry Heisler",
+            "people": [
+              "Selina Teitelbaum",
+              "Harry Heisler"
+            ],
+            "children": [
+              {
+                "label": "Louis Heisler & Barbara 'Bobby' Peters",
+                "people": [
+                  "Louis Heisler",
+                  "Barbara Peters"
+                ],
+                "children": [
+                  {
+                    "label": "Beth Heisler",
+                    "people": [
+                      "Beth Heisler"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Sandee Lynn Heisler & Clement Ethan Whitman",
+                    "people": [
+                      "Sandee Lynn Heisler",
+                      "Clement Ethan Whitman"
+                    ],
+                    "children": [
+                      {
+                        "label": "Blaise Michael Whitman",
+                        "people": [
+                          "Blaise Michael Whitman"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Kevin Benjamin Whitman",
+                        "people": [
+                          "Kevin Benjamin Whitman"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Hanna Jessica Whitman",
+                        "people": [
+                          "Hanna Jessica Whitman"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Magda Teitelbaum & Eugene 'Jeno' Schlesinger",
+            "people": [
+              "Magda Teitelbaum",
+              "Eugene Schlesinger"
+            ],
+            "children": [
+              {
+                "label": "Dorothy Claire Schlesinger (Swerbilov) & Boris Seeber",
+                "anchor": "dorothy_boris",
+                "people": [
+                  "Dorothy Claire Schlesinger",
+                  "Boris Seeber"
+                ],
+                "children": [
+                  {
+                    "label": "Kathryn Seeber Magdar Reuter",
+                    "people": [
+                      "Kathryn Seeber"
+                    ],
+                    "spouses": [
+                      {
+                        "name": "Joseph Magdar"
+                      },
+                      {
+                        "name": "Mike Reuter"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "label": "Julie Magdar",
+                        "people": [
+                          "Julie Magdar"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Eric Magdar",
+                        "people": [
+                          "Eric Magdar"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Adam Magdar",
+                        "people": [
+                          "Adam Magdar"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Ralph J. Schlesinger",
+                "people": [
+                  "Ralph J. Schlesinger"
+                ],
+                "spouses": [
+                  {
+                    "name": "Marlene Baker"
+                  },
+                  {
+                    "name": "Betty Schaeffer Gold"
+                  }
+                ],
+                "children": [
+                  {
+                    "label": "Terri Schlesinger & Richard Kim",
+                    "people": [
+                      "Terri Schlesinger",
+                      "Richard Kim"
+                    ],
+                    "children": [
+                      {
+                        "label": "Brandon Kim",
+                        "people": [
+                          "Brandon Kim"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Wendy Schlesinger & Jordan Bentley / Brian Rupp",
+                    "people": [
+                      "Wendy Schlesinger",
+                      "Jordan Bentley",
+                      "Brian Rupp"
+                    ],
+                    "children": [
+                      {
+                        "label": "Justin (Michael) Bentley",
+                        "people": [
+                          "Justin Bentley"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Joan Ruth Schlesinger & Gerald Baker",
+                "people": [
+                  "Joan Ruth Schlesinger",
+                  "Gerald Baker"
+                ],
+                "children": [
+                  {
+                    "label": "Jill Baker & David Israel",
+                    "people": [
+                      "Jill Baker",
+                      "David Israel"
+                    ],
+                    "children": [
+                      {
+                        "label": "Jared Israel",
+                        "people": [
+                          "Jared Israel"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Jodi Israel",
+                        "people": [
+                          "Jodi Israel"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Jeffey Baker (adopted) & Wendy Baker",
+                    "people": [
+                      "Jeffey Baker",
+                      "Wendy Baker"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Robert Baker & Cercys (Sarah?) Baker",
+                    "people": [
+                      "Robert Baker",
+                      "Cercys Baker"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Eric Baker & Daphna (Ascali) Baker",
+                    "people": [
+                      "Eric Baker",
+                      "Daphna Baker"
+                    ],
+                    "children": [
+                      {
+                        "label": "Adam Baker",
+                        "people": [
+                          "Adam Baker"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Anna Baker",
+                        "people": [
+                          "Anna Baker"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Stanley Teitelbaum & Tillie Gandelman",
+            "people": [
+              "Stanley Teitelbaum",
+              "Tillie Gandelman"
+            ],
+            "children": [
+              {
+                "label": "Mark Teitelbaum (adopted)",
+                "people": [
+                  "Mark Teitelbaum"
+                ],
+                "notes": "Adopted",
+                "children": []
+              },
+              {
+                "label": "Elaina Teitelbaum (adopted)",
+                "people": [
+                  "Elaina Teitelbaum"
+                ],
+                "notes": "Adopted",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "schlesinger",
+      "title": "Dorothy Seeber — Paternal (Schlesinger / Heimler)",
+      "root": {
+        "label": "Julius (Gyula) Schlesinger & Ilka Heimler",
+        "people": [
+          "Julius Schlesinger",
+          "Ilka Heimler"
+        ],
+        "children": [
+          {
+            "label": "Carl (Calman) Schlesinger & Regina Gottlieb",
+            "people": [
+              "Carl Schlesinger",
+              "Regina Gottlieb"
+            ],
+            "children": [
+              {
+                "label": "Robert Schlesinger & Betsy Marks",
+                "people": [
+                  "Robert Schlesinger",
+                  "Betsy Marks"
+                ],
+                "children": [
+                  {
+                    "label": "Paul Schlesinger & Julie ??",
+                    "people": [
+                      "Paul Schlesinger",
+                      "Julie"
+                    ],
+                    "children": [
+                      {
+                        "label": "Molly Schlesinger",
+                        "people": [
+                          "Molly Schlesinger"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Jean Schlesinger & Robert Saber / Jerry Saber",
+                    "people": [
+                      "Jean Schlesinger",
+                      "Robert Saber",
+                      "Jerry Saber"
+                    ],
+                    "children": [
+                      {
+                        "label": "Peter Saber & Mariel Sibug",
+                        "people": [
+                          "Peter Saber",
+                          "Mariel Sibug"
+                        ],
+                        "children": [
+                          {
+                            "label": "Isabel Marie Saber",
+                            "people": [
+                              "Isabel Marie Saber"
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "label": "Barbara Saber & Larry Willis",
+                        "people": [
+                          "Barbara Saber",
+                          "Larry Willis"
+                        ],
+                        "children": [
+                          {
+                            "label": "Brian Willis",
+                            "people": [
+                              "Brian Willis"
+                            ],
+                            "children": []
+                          },
+                          {
+                            "label": "Trevor Willis",
+                            "people": [
+                              "Trevor Willis"
+                            ],
+                            "children": []
+                          },
+                          {
+                            "label": "Regina Willis",
+                            "people": [
+                              "Regina Willis"
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Julia (Jolan) Schlesinger",
+            "people": [
+              "Julia Schlesinger"
+            ],
+            "children": []
+          },
+          {
+            "label": "Alex (Sandor) Schlesinger & Jess Torrence",
+            "people": [
+              "Alex Schlesinger",
+              "Jess Torrence"
+            ],
+            "children": []
+          },
+          {
+            "label": "Eugene (Jeno) Schlesinger & Magda (Margaret) Teitelbaum",
+            "people": [
+              "Eugene Schlesinger",
+              "Magda Teitelbaum"
+            ],
+            "link": "#teitelbaum"
+          },
+          {
+            "label": "Dorothy Claire Schlesinger & Boris Seeber",
+            "people": [
+              "Dorothy Claire Schlesinger",
+              "Boris Seeber"
+            ],
+            "link": "#dorothy_boris"
+          },
+          {
+            "label": "Ralph J. Schlesinger & Marlene Baker / Betty Schaeffer Gold",
+            "people": [
+              "Ralph J. Schlesinger",
+              "Marlene Baker",
+              "Betty Schaeffer Gold"
+            ],
+            "link": "#teitelbaum"
+          },
+          {
+            "label": "Joan Ruth Schlesinger & Gerald Baker",
+            "people": [
+              "Joan Ruth Schlesinger",
+              "Gerald Baker"
+            ],
+            "link": "#teitelbaum"
+          }
+        ]
+      }
+    },
+    {
+      "id": "endervelt",
+      "title": "Boris Seeber — Maternal (Endervelt / Fishman)",
+      "root": {
+        "label": "Morris Endervelt & Gussie Fishman",
+        "people": [
+          "Morris Endervelt",
+          "Gussie Fishman"
+        ],
+        "children": [
+          {
+            "label": "Nancy Kate Endervelt & Solomon (Sol) Swerbilov",
+            "people": [
+              "Nancy Kate Endervelt",
+              "Solomon Swerbilov"
+            ],
+            "children": [
+              {
+                "label": "Boris Swerbilov Seeber & Dorothy Schlesinger",
+                "people": [
+                  "Boris Seeber",
+                  "Dorothy Claire Schlesinger"
+                ],
+                "link": "#dorothy_boris",
+                "children": []
+              },
+              {
+                "label": "Zarvin Swerbilov & Sally Parker",
+                "people": [
+                  "Zarvin Swerbilov",
+                  "Sally Parker"
+                ],
+                "children": [
+                  {
+                    "label": "Daniel Swerbilov & Diane Jacobs",
+                    "people": [
+                      "Daniel Swerbilov",
+                      "Diane Jacobs"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Nicholas Swerbilov & Beatrice Rosa (prev. married)",
+                    "people": [
+                      "Nicholas Swerbilov",
+                      "Beatrice Rosa"
+                    ],
+                    "children": [
+                      {
+                        "label": "Justin Poinquinette",
+                        "people": [
+                          "Justin Poinquinette"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Nicholas Daniel Swerbilov",
+                        "people": [
+                          "Nicholas Daniel Swerbilov"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Jack Endervelt & Edna B. Jacobs",
+            "people": [
+              "Jack Endervelt",
+              "Edna B. Jacobs"
+            ],
+            "children": [
+              {
+                "label": "Cynthia Endervelt & Morris Weiner",
+                "people": [
+                  "Cynthia Endervelt",
+                  "Morris Weiner"
+                ],
+                "children": [
+                  {
+                    "label": "Joef Weiner & Helene Dikter",
+                    "people": [
+                      "Joef Weiner",
+                      "Helene Dikter"
+                    ],
+                    "children": [
+                      {
+                        "label": "Carrie Shawn Weiner",
+                        "people": [
+                          "Carrie Shawn Weiner"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Aron Ross Weiner",
+                        "people": [
+                          "Aron Ross Weiner"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Stacy Joy Weiner & Yoel Tobin",
+                        "people": [
+                          "Stacy Joy Weiner",
+                          "Yoel Tobin"
+                        ],
+                        "children": [
+                          {
+                            "label": "Yoni Meitay Weiner-Tobin",
+                            "people": [
+                              "Yoni Meitay Weiner-Tobin"
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Betty (Billie) Endervelt & Sioma Burk",
+            "people": [
+              "Betty Endervelt",
+              "Sioma Burk"
+            ],
+            "children": [
+              {
+                "label": "Dennis Burk & Giovanna Colonella",
+                "people": [
+                  "Dennis Burk",
+                  "Giovanna Colonella"
+                ],
+                "children": [
+                  {
+                    "label": "Stephania Burk",
+                    "people": [
+                      "Stephania Burk"
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "Gregory Burk & Serena Roselli",
+                "people": [
+                  "Gregory Burk",
+                  "Serena Roselli"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "Al Endervelt & Esther Edelstein",
+            "people": [
+              "Al Endervelt",
+              "Esther Edelstein"
+            ],
+            "children": [
+              {
+                "label": "Sanda Endervelt & Don Maurer",
+                "people": [
+                  "Sanda Endervelt",
+                  "Don Maurer"
+                ],
+                "children": [
+                  {
+                    "label": "Aline Maurer & Tim Smith",
+                    "people": [
+                      "Aline Maurer",
+                      "Tim Smith"
+                    ],
+                    "children": [
+                      {
+                        "label": "Jordan Smith",
+                        "people": [
+                          "Jordan Smith"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Daniella Smith",
+                        "people": [
+                          "Daniella Smith"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Carole Endervelt & Gerald Sauer",
+                "people": [
+                  "Carole Endervelt",
+                  "Gerald Sauer"
+                ],
+                "children": [
+                  {
+                    "label": "Bruce Sauer & Eve Sauer",
+                    "people": [
+                      "Bruce Sauer",
+                      "Eve Sauer"
+                    ],
+                    "children": [
+                      {
+                        "label": "Todd Sauer",
+                        "people": [
+                          "Todd Sauer"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Robert Sauer & Corinne Sauer",
+                    "people": [
+                      "Robert Sauer",
+                      "Corinne Sauer"
+                    ],
+                    "children": [
+                      {
+                        "label": "Rivka Sauer",
+                        "people": [
+                          "Rivka Sauer"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Ilana Sauer",
+                        "people": [
+                          "Ilana Sauer"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Sarit Sauer",
+                        "people": [
+                          "Sarit Sauer"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Michal Sauer",
+                        "people": [
+                          "Michal Sauer"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Mariyah Sauer",
+                        "people": [
+                          "Mariyah Sauer"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Dorothy Endervelt & Isidor Thompson",
+            "people": [
+              "Dorothy Endervelt",
+              "Isidor Thompson"
+            ],
+            "children": [
+              {
+                "label": "Jacqueline (Jackie) Thompson & Howard Marylander",
+                "people": [
+                  "Jacqueline Thompson",
+                  "Howard Marylander"
+                ],
+                "children": [
+                  {
+                    "label": "Jill Marylander",
+                    "people": [
+                      "Jill Marylander"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Lynn Marylander",
+                    "people": [
+                      "Lynn Marylander"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "David Endervelt & Elizabeth (Billie) Slade",
+            "people": [
+              "David Endervelt",
+              "Elizabeth Slade"
+            ],
+            "children": [
+              {
+                "label": "Jeffrey Endervelt (divorced Polly Bergen)",
+                "people": [
+                  "Jeffrey Endervelt",
+                  "Polly Bergen"
+                ],
+                "notes": "Divorced",
+                "children": []
+              },
+              {
+                "label": "Elizabeth (Betsy) Endervelt & Jerome (Jerry) Weintraub",
+                "people": [
+                  "Elizabeth Endervelt",
+                  "Jerome Weintraub"
+                ],
+                "children": [
+                  {
+                    "label": "Danielle Weintraub & David Goldberg",
+                    "people": [
+                      "Danielle Weintraub",
+                      "David Goldberg"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Erica Weintraub",
+                    "people": [
+                      "Erica Weintraub"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "swerbilov",
+      "title": "Boris Seeber — Paternal (Swerbilov / Polikoff)",
+      "root": {
+        "label": "Eliazar Swerbilov & Hanetta Polikoff",
+        "people": [
+          "Eliazar Swerbilov",
+          "Hanetta Polikoff"
+        ],
+        "children": [
+          {
+            "label": "Solomon (Sol) Swerbilov & Nancy Kate Endervelt",
+            "people": [
+              "Solomon Swerbilov",
+              "Nancy Kate Endervelt"
+            ],
+            "children": [
+              {
+                "label": "Boris Swerbilov Seeber & Dorothy C. Schlesinger",
+                "people": [
+                  "Boris Seeber",
+                  "Dorothy Claire Schlesinger"
+                ],
+                "link": "#dorothy_boris",
+                "children": []
+              },
+              {
+                "label": "Zarvin Swerbilov & Sally Parker",
+                "people": [
+                  "Zarvin Swerbilov",
+                  "Sally Parker"
+                ],
+                "link": "#endervelt",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "Jack Swerbilow & Rachel (Ray) Gordon",
+            "people": [
+              "Jack Swerbilow",
+              "Rachel Gordon"
+            ],
+            "children": [
+              {
+                "label": "Bernard Swerbilow & Elsie Shapiro",
+                "people": [
+                  "Bernard Swerbilow",
+                  "Elsie Shapiro"
+                ],
+                "children": [
+                  {
+                    "label": "Howard Swerbilow & Carol Rosenberg",
+                    "people": [
+                      "Howard Swerbilow",
+                      "Carol Rosenberg"
+                    ],
+                    "children": [
+                      {
+                        "label": "Brett Swerbilow",
+                        "people": [
+                          "Brett Swerbilow"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Jay Swerbilow",
+                        "people": [
+                          "Jay Swerbilow"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Mitchell Swerbilow & Deborah Finkle (div.) / Leslie Grumm",
+                    "people": [
+                      "Mitchell Swerbilow",
+                      "Deborah Finkle",
+                      "Leslie Grumm"
+                    ],
+                    "children": [
+                      {
+                        "label": "Jessica Rae Swerbilow",
+                        "people": [
+                          "Jessica Rae Swerbilow"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Nicholas Swerbilow",
+                        "people": [
+                          "Nicholas Swerbilow"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Helen Swerbilow & Emanuel (Manny) Rosenblatt",
+                "people": [
+                  "Helen Swerbilow",
+                  "Emanuel Rosenblatt"
+                ],
+                "children": [
+                  {
+                    "label": "Phyllis Rosenblatt & Luigi Vespignani",
+                    "people": [
+                      "Phyllis Rosenblatt",
+                      "Luigi Vespignani"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Louis Rosenblatt & Rachel Miller",
+                    "people": [
+                      "Louis Rosenblatt",
+                      "Rachel Miller"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Barbara (Baru) Rosenblatt & Saul Bailey",
+                    "people": [
+                      "Barbara Rosenblatt",
+                      "Saul Bailey"
+                    ],
+                    "children": [
+                      {
+                        "label": "Reuben Bailey",
+                        "people": [
+                          "Reuben Bailey"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Noah Bailey",
+                        "people": [
+                          "Noah Bailey"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Isaac Bailey",
+                        "people": [
+                          "Isaac Bailey"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Karen Rosenblatt",
+                    "people": [
+                      "Karen Rosenblatt"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Leiko (Lico/Lee) Rosenblatt",
+                    "people": [
+                      "Leiko Rosenblatt"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Jackie Vespignani",
+                    "people": [
+                      "Jackie Vespignani"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Marco Vespignani",
+                    "people": [
+                      "Marco Vespignani"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Molly (Aunt Vita) Swerbilov & William Conovich",
+            "people": [
+              "Molly Swerbilov",
+              "William Conovich"
+            ],
+            "children": [
+              {
+                "label": "Rose Conovich & Jack Kofler",
+                "people": [
+                  "Rose Conovich",
+                  "Jack Kofler"
+                ],
+                "children": [
+                  {
+                    "label": "William (Billie) Kofler & Barbara Holz / Jayne Goetzel",
+                    "people": [
+                      "William Kofler",
+                      "Barbara Holz",
+                      "Jayne Goetzel"
+                    ],
+                    "children": [
+                      {
+                        "label": "Kevin Kofler",
+                        "people": [
+                          "Kevin Kofler"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Kenneth Kofler",
+                        "people": [
+                          "Kenneth Kofler"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Caroline Kofler",
+                        "people": [
+                          "Caroline Kofler"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Andrea Kofler & Gary Kesselman / Rick Mandelbaum / Jerry Wayne",
+                    "people": [
+                      "Andrea Kofler",
+                      "Gary Kesselman",
+                      "Rick Mandelbaum",
+                      "Jerry Wayne"
+                    ],
+                    "children": [
+                      {
+                        "label": "David Kesselman",
+                        "people": [
+                          "David Kesselman"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Stephen Mandelbaum",
+                        "people": [
+                          "Stephen Mandelbaum"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Rachel Conovich & Mannie Wanschel / Ed Kommer",
+                "people": [
+                  "Rachel Conovich",
+                  "Mannie Wanschel",
+                  "Ed Kommer"
+                ],
+                "children": [
+                  {
+                    "label": "Marc Wanschel",
+                    "people": [
+                      "Marc Wanschel"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Laurence (Larry) Wanschel & Linda Weber",
+                    "people": [
+                      "Laurence Wanschel",
+                      "Linda Weber"
+                    ],
+                    "children": [
+                      {
+                        "label": "Elyse Weber",
+                        "people": [
+                          "Elyse Weber"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Samantha Weber",
+                        "people": [
+                          "Samantha Weber"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Gertrude Conovich (twin of Sarah) & Edward Klein / Irving (By) Bystock",
+                "people": [
+                  "Gertrude Conovich",
+                  "Edward Klein",
+                  "Irving Bystock"
+                ],
+                "children": [
+                  {
+                    "label": "Warren Klein",
+                    "people": [
+                      "Warren Klein"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "label": "Barbara Klein & Steven Gordon",
+                    "people": [
+                      "Barbara Klein",
+                      "Steven Gordon"
+                    ],
+                    "children": [
+                      {
+                        "label": "Stefanie Klein",
+                        "people": [
+                          "Stefanie Klein"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Eryn Klein",
+                        "people": [
+                          "Eryn Klein"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "Sarah (Helen) Conovich (twin of Gertrude) & Norman Leeb",
+                "people": [
+                  "Sarah Conovich",
+                  "Norman Leeb"
+                ],
+                "children": [
+                  {
+                    "label": "Leslie Leeb & Joseph Fields",
+                    "people": [
+                      "Leslie Leeb",
+                      "Joseph Fields"
+                    ],
+                    "children": [
+                      {
+                        "label": "Jodi Fields",
+                        "people": [
+                          "Jodi Fields"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Randy Leeb & Michael Schnell",
+                    "people": [
+                      "Randy Leeb",
+                      "Michael Schnell"
+                    ],
+                    "children": [
+                      {
+                        "label": "Melissa Schnell",
+                        "people": [
+                          "Melissa Schnell"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "label": "Cary Schnell",
+                        "people": [
+                          "Cary Schnell"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
