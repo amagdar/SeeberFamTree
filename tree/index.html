@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"UTF-8\" />
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+  <title>Seeber Family Tree (Editable)</title>
+  <link rel=\"stylesheet\" href=\"styles.css\" />
+</head>
+<body>
+  <header>
+    <h1>Seeber Family Tree (Editable)</h1>
+    <p>Click nodes to view or edit. Use search to highlight names. Your changes are saved in your browser.</p>
+    <div id=\"toolbar\">
+      <div id=\"search\">
+        <input type=\"text\" id=\"searchInput\" placeholder=\"Search names (e.g., 'Dorothy', 'Swerbilov')\" />
+        <button id=\"clearBtn\" aria-label=\"Clear\">Clear</button>
+      </div>
+      <div id=\"controls\">
+        <button id=\"toggleEdit\">Enable Edit Mode</button>
+        <button id=\"exportJson\">Export JSON</button>
+        <label class=\"fileLabel\">Import JSON<input type=\"file\" id=\"importJson\" accept=\"application/json\" hidden></label>
+        <button id=\"resetData\">Reset to Original</button>
+      </div>
+    </div>
+    <nav id=\"branchTabs\"></nav>
+  </header>
+
+  <main>
+    <section id=\"tree\"></section>
+    <aside id=\"card\">
+      <h2>Node Editor</h2>
+      <div id=\"cardContent\">Select a node summary to edit. In view mode, click names to focus.</div>
+      <form id=\"editForm\" hidden>
+        <input type=\"hidden\" id=\"nodeId\" />
+        <label>Label<br><input id=\"labelInput\" /></label>
+        <label>Notes<br><input id=\"notesInput\" /></label>
+        <label>People (comma-separated)<br><input id=\"peopleInput\" /></label>
+        <div class=\"row\">
+          <button type=\"button\" id=\"saveNode\">Save</button>
+          <button type=\"button\" id=\"deleteNode\" class=\"danger\">Delete Node</button>
+        </div>
+        <hr>
+        <h3>Additions</h3>
+        <div class=\"row\">
+          <button type=\"button\" id=\"addChild\">Add Child</button>
+          <button type=\"button\" id=\"addSpouse\">Add Spouse</button>
+        </div>
+      </form>
+    </aside>
+  </main>
+
+  <footer>
+    <small>Indicators: (adopted), (div.), (twin). Changes persist locally via localStorage.</small>
+  </footer>
+
+  <script src=\"script.js\"></script>
+</body>
+</html>

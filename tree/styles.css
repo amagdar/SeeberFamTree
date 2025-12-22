@@ -1,0 +1,35 @@
+
+:root { --bg:#faf5e6; --ink:#332b1a; --accent:#8c6b3b; --panel:#fffaf0; --danger:#b23a3a; }
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--ink)}
+header{padding:1rem 1.5rem;border-bottom:3px double #c9b079;background:linear-gradient(#fffaf0,#f5ebd0)}
+h1{margin:0 0 .25rem;font-size:1.8rem}
+#toolbar{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;justify-content:space-between}
+#search{display:flex;gap:.5rem;align-items:center}
+#search input{padding:.5rem .75rem;border:1px solid #c9b079;border-radius:6px}
+#search button{padding:.5rem .75rem;border:1px solid #c9b079;background:var(--panel);border-radius:6px;cursor:pointer}
+#controls{display:flex;gap:.5rem;align-items:center}
+#controls button,.fileLabel{padding:.45rem .7rem;border:1px solid #a88b56;background:#fff;border-radius:8px;cursor:pointer}
+.fileLabel{position:relative;overflow:hidden}
+.fileLabel input{position:absolute;inset:0;opacity:0;cursor:pointer}
+#branchTabs{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+#branchTabs button{padding:.4rem .7rem;border:1px solid #a88b56;background:#fff;border-radius:999px;cursor:pointer}
+#branchTabs button.active{background:var(--accent);color:#fff}
+main{display:grid;grid-template-columns:2fr 1fr;gap:1rem;padding:1rem 1.5rem}
+#tree,#card{background:var(--panel);border:1px solid #e1d2ab;padding:1rem;border-radius:12px}
+
+/* Tree */
+details{border-left:3px solid #d3b47a;padding-left:.75rem;margin:.4rem 0}
+details>summary{cursor:pointer;list-style:none;font-weight:700}
+.node-meta{font-size:.9rem;color:#6d5a3c;margin-left:.4rem}
+.person{color:#124;cursor:pointer;text-decoration:underline}
+.highlight{background:#fffdcc}
+
+/* Card */
+#editForm{display:grid;gap:.5rem}
+#editForm input{padding:.4rem;border:1px solid #c9b079;border-radius:6px}
+.row{display:flex;gap:.5rem}
+button.danger{background:#fff;color:var(--danger);border-color:var(--danger)}
+button.danger:hover{background:#ffecec}
+
+@media(max-width:900px){main{grid-template-columns:1fr}}
