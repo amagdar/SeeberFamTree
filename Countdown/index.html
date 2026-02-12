@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Countdown to DEEP CREEK 2026!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0b1020;
+      --fg: #e7ecf3;
+      --muted: #9fb0c3;
+      --accent: #4aa3ff;
+    }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      min-height: 100dvh; display: grid; place-items: center;
+      background: radial-gradient(1200px 800px at 70% 10%, #121a33, var(--bg));
+      color: var(--fg);
+    }
+    .card {
+      max-width: 720px; width: min(92vw, 720px);
+      border: 1px solid #22304d; border-radius: 16px;
+      padding: 28px 28px 24px; background: rgba(15, 22, 44, 0.6);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 12px 40px rgba(0,0,0,.35);
+    }
+    h1 { margin: 0 0 4px; font-size: clamp(22px, 4vw, 28px); }
+    p { margin: 4px 0 20px; color: var(--muted); }
+    .countdown {
+      display: grid; grid-template-columns: repeat(2, minmax(140px, 1fr));
+      gap: 12px; margin: 10px 0 6px;
+    }
+    .unit {
+      border: 1px solid #233658; border-radius: 12px; padding: 16px 12px;
+      text-align: center; background: linear-gradient(180deg, #0f1730, #0b1328);
+    }
+    .value { font-variant-numeric: tabular-nums; font-size: clamp(36px, 9vw, 64px); font-weight: 700; }
+    .label { margin-top: 6px; color: #a8bad1; letter-spacing: .08em; text-transform: uppercase; font-size: 12px; }
+    .target { margin-top: 10px; font-size: 14px; color: #a8bad1; }
+    .foot { margin-top: 16px; font-size: 12px; color: #899bb4; }
+    .accent { color: var(--accent); font-weight: 600; }
+    code { background: #101b34; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Countdown to <span class="accent">DEEP CREEK 2026!</span></h1>
+    <p>Live countdown from current Eastern Time to <strong>4:00 PM tomorrow</strong> (ET), shown in minutes and seconds.</p>
+
+    <section class="countdown" aria-live="polite" aria-atomic="true">
+      <div class="unit"><div id="minutes" class="value">—</div><div class="label">Minutes</div></div>
+      <div class="unit"><div id="seconds" class="value">—</div><div class="label">Seconds</div></div>
+    </section>
+
+    <div id="status" class="target">Calculating…</div>
+    <div class="foot">
+      Timezone locked to <code>America/New_York</code> (ET). Correct across DST changes and regardless of your device timezone.
+    </div>
+  </main>
+
+  <script>
+    // ---------- Configuration ----------
+    const ET_ZONE = 'America/New_York';
+    const TARGET_HOUR = 16;  // 4 PM
+    const TARGET_MIN = 0;
+    const TARGET_SEC = 0;
+
+    // ---------- Utilities ----------
+    function getLocalParts(date, timeZone) {
+      const fmt = new Intl.DateTimeFormat('en-US', {
+        timeZone,
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false
+      });
+      const parts = fmt.formatToParts(date).reduce((acc, p) => (acc[p.type] = p.value, acc), {});
+      return {
+        year: Number(parts.year),
+        month: Number(parts.month),
+        day: Number(parts.day),
+        hour: Number(parts.hour),
+        minute: Number(parts.minute),
+        second: Number(parts.second)
+      };
+    }
+
+    function getOffsetMinutesAt(date, timeZone) {
+      const fmt = new Intl.DateTimeFormat('en-US', {
+        timeZone,
+        hour: '2-digit', minute: '2-digit',
+        timeZoneName: 'shortOffset',
+        hour12: false
+      });
+      const str = fmt.format(date);
+      const match = str.match(/(?:GMT|UTC)([+-]\d{1,2})(?::?(\d{2}))?/);
+      if (!match) {
+        const asZone = new Date(date.toLocaleString('en-US', { timeZone }));
+        return (asZone.getTime() - date.getTime()) / 60000;
+      }
+      const sign = match[1].startsWith('-') ? -1 : 1;
+      const hours = Math.abs(parseInt(match[1], 10));
+      const mins = match[2] ? parseInt(match[2], 10) : 0;
+      return sign * (hours * 60 + mins);
+    }
+
+    function etLocalToUTCInstant(year, month, day, hour, minute, second) {
+      const guessUTC = new Date(Date.UTC(year, month - 1, day, 12, 0, 0));
+      const offsetAtGuess = getOffsetMinutesAt(guessUTC, ET_ZONE);
+      const utcMillis = Date.UTC(year, month - 1, day, hour, minute, second) - offsetAtGuess * 60000;
+      const preciseOffset = getOffsetMinutesAt(new Date(utcMillis), ET_ZONE);
+      if (preciseOffset !== offsetAtGuess) {
+        return new Date(Date.UTC(year, month - 1, day, hour, minute, second) - preciseOffset * 60000);
+      }
+      return new Date(utcMillis);
+    }
+
+    function computeNextTargetET(nowInstant = new Date()) {
+      const nowET = getLocalParts(nowInstant, ET_ZONE);
+      // Build "tomorrow" in ET by using JS Date normalization
+      const tmp = new Date(Date.UTC(nowET.year, nowET.month - 1, nowET.day + 1, 12, 0, 0));
+      const finalET = getLocalParts(tmp, ET_ZONE);
+      return etLocalToUTCInstant(finalET.year, finalET.month, finalET.day, TARGET_HOUR, TARGET_MIN, TARGET_SEC);
+    }
+
+    function formatET(instant) {
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone: ET_ZONE,
+        year: 'numeric', month: 'long', day: '2-digit',
+        weekday: 'long',
+        hour: 'numeric', minute: '2-digit', second: '2-digit',
+        hour12: true
+      }).format(instant);
+    }
+
+    const z2 = n => String(n).padStart(2, '0');
+
+    // ---------- Main countdown loop ----------
