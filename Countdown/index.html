@@ -7,26 +7,100 @@
   <meta name="description" content="Minute:second countdown to 4:00 PM tomorrow Eastern Time." />
   <style>
     :root {
-      --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --accent: #22d3ee; --accent2: #60a5fa;
+      --bg: #0f172a;       /* slate-900 */
+      --fg: #e2e8f0;       /* slate-200 */
+      --muted: #94a3b8;    /* slate-400 */
+      --accent: #22d3ee;   /* cyan-400 */
+      --accent2: #60a5fa;  /* blue-400 */
     }
-    html, body { height: 100%; margin: 0; background: #0f172a; color: var(--fg);
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; }
-    .wrap { min-height: 100%; display: grid; place-items: center; padding: 2rem; }
-    .card { max-width: 720px; width: min(92vw, 720px); text-align: center;
-      background: rgba(15,23,42,.6); border: 1px solid rgba(148,163,184,.2);
-      border-radius: 18px; padding: 2rem; }
-    h1{ margin:0 0 .5rem 0; font-size: clamp(1.7rem,3.2vw + 1rem,2.6rem);
-      background: linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color: transparent;}
-    .sub{ margin:0 0 1rem 0; color: var(--muted); }
-    .timer{ display:inline-grid; grid-auto-flow:column; gap:.85rem; align-items:end; }
-    .unit{ display:grid; gap:.3rem; justify-items:center; }
-    .value{ font-variant-numeric: tabular-nums; font-weight:700; letter-spacing:1px;
-      padding:.55rem .85rem; border-radius:12px; background:rgba(2,132,199,.14);
-      border:1px solid rgba(56,189,248,.25); font-size:clamp(2.4rem,6vw,4.2rem); color:#e6f9ff;
-      min-width:3ch; text-align:center; }
-    .label{ font-size:.8rem; color: var(--muted); text-transform: uppercase; }
-    .note{ margin-top:1rem; color: var(--muted); }
-    .small{ font-size: .85rem; color: var(--muted); margin-top: .5rem; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: radial-gradient(1200px 800px at 20% 20%, #0b1229 0%, var(--bg) 60%, #0b1020 100%);
+      color: var(--fg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+    }
+    .card {
+      max-width: 720px;
+      width: min(92vw, 720px);
+      text-align: center;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 18px;
+      padding: 2.25rem 1.75rem 2.5rem;
+      box-shadow: 0 30px 80px rgba(2, 8, 23, 0.6), inset 0 0 0 1px rgba(148, 163, 184, 0.06);
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      margin: 0 0 0.75rem 0;
+      font-size: clamp(1.7rem, 3.2vw + 1rem, 2.6rem);
+      letter-spacing: 0.3px;
+      line-height: 1.15;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .sub {
+      margin: 0 0 1.5rem 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      letter-spacing: 0.2px;
+    }
+    .timer {
+      display: inline-grid;
+      grid-auto-flow: column;
+      gap: 0.85rem;
+      align-items: end;
+      margin-top: 0.75rem;
+    }
+    .unit {
+      display: grid;
+      gap: 0.3rem;
+      justify-items: center;
+    }
+    .value {
+      font-variant-numeric: tabular-nums;
+      font-feature-settings: "tnum";
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 0.55rem 0.85rem;
+      border-radius: 12px;
+      background: rgba(2, 132, 199, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      box-shadow: inset 0 0 0 1px rgba(56, 189, 248, 0.12), 0 10px 30px rgba(3, 105, 161, 0.20);
+      font-size: clamp(2.4rem, 6vw, 4.2rem);
+      color: #e6f9ff;
+      min-width: 3ch;
+      text-align: center;
+    }
+    .label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      letter-spacing: 0.15px;
+      text-transform: uppercase;
+    }
+    .note {
+      margin-top: 1.25rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .flash {
+      animation: flash 0.3s ease-out;
+    }
+    @keyframes flash {
+      from { box-shadow: inset 0 0 0 1px rgba(56,189,248,0.5), 0 0 0px rgba(56,189,248,0.0); }
+      to   { box-shadow: inset 0 0 0 1px rgba(56,189,248,0.12), 0 10px 30px rgba(3,105,161,0.20); }
+    }
+    @media (max-width: 420px) {
+      .label { font-size: 0.72rem; }
+    }
   </style>
 </head>
 <body>
@@ -38,7 +112,7 @@
       <div class="timer" aria-live="polite" aria-atomic="true">
         <div class="unit">
           <div id="minutes" class="value">00</div>
-          <div class="label">Total Minutes</div>
+          <div class="label">Minutes</div>
         </div>
         <div class="unit">
           <div id="seconds" class="value">00</div>
@@ -47,80 +121,74 @@
       </div>
 
       <p id="done" class="note" hidden>We’re there! 🎉</p>
-      <p id="meta" class="small" aria-live="polite"></p>
+      <p id="hint" class="note">Tip: keep this tab open; it updates every second.</p>
     </main>
   </div>
 
   <script>
-    // --- Helper: get tomorrow at 16:00:00 in America/New_York as a *UTC instant* (ms)
-    function targetTomorrowAtFourPM_ET_UTCms() {
-      const zone = 'America/New_York';
+    // --- Config: change only if you want a different target wall time
+    const TARGET_HOUR = 16;   // 4 PM
+    const TARGET_MIN = 0;     // :00
 
-      // Format "now" as seen in NY to get today's calendar in that zone
+    // Compute "tomorrow at 4:00 PM" in the viewer's current time zone.
+    function getTomorrowAt(hour, minute) {
       const now = new Date();
-      const fmtYMDHMS = new Intl.DateTimeFormat('en-US', {
-        timeZone: zone, hour12: false,
-        year: 'numeric', month: '2-digit', day: '2-digit',
-        hour: '2-digit', minute: '2-digit', second: '2-digit'
-      });
-      const parts = Object.fromEntries(fmtYMDHMS.formatToParts(now).map(p => [p.type, p.value]));
-      const y = +parts.year, m = +parts.month, d = +parts.day;
-
-      // Build "tomorrow" in NY by advancing one NY-day using a noon placeholder
-      const noonUTCguess = Date.UTC(y, m - 1, d, 12, 0, 0);
-      const oneDay = 24 * 60 * 60 * 1000;
-      const tomorrowUTCguess = noonUTCguess + oneDay;
-
-      const fmtYMD = new Intl.DateTimeFormat('en-US', {
-        timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit'
-      });
-      const dparts = Object.fromEntries(fmtYMD.formatToParts(new Date(tomorrowUTCguess)).map(p => [p.type, p.value]));
-      const ty = +dparts.year, tm = +dparts.month, td = +dparts.day;
-
-      // Convert the NY wall time 16:00:00 to the corresponding UTC instant.
-      // We search near the rough UTC guess to handle DST safely.
-      function zonedWallToUTC(year, month, day, hour, minute, second, timeZone) {
-        const rough = Date.UTC(year, month - 1, day, hour, minute, second, 0);
-        const fmt = new Intl.DateTimeFormat('en-US', {
-          timeZone, hour12: false,
-          year: 'numeric', month: '2-digit', day: '2-digit',
-          hour: '2-digit', minute: '2-digit', second: '2-digit'
-        });
-        const step = 60 * 1000; // 1 minute steps
-        const window = 6 * 60 * 60 * 1000; // +/- 6 hours window
-        function matches(utcMs) {
-          const map = Object.fromEntries(fmt.formatToParts(new Date(utcMs)).map(p => [p.type, p.value]));
-          return (+map.year === year && +map.month === month && +map.day === day &&
-                  +map.hour === hour && +map.minute === minute && +map.second === second);
-        }
-        for (let delta = 0; delta <= window; delta += step) {
-          const before = rough - delta;
-          const after  = rough + delta;
-          if (matches(before)) return before;
-          if (matches(after))  return after;
-        }
-        return rough; // fallback
-      }
-
-      return zonedWallToUTC(ty, tm, td, 16, 0, 0, zone);
+      const t = new Date(now);
+      t.setHours(hour, minute, 0, 0);
+      // "Tomorrow" (even if it's already past 4 PM today)
+      t.setDate(t.getDate() + 1);
+      return t;
     }
 
-    const targetUtcMs = targetTomorrowAtFourPM_ET_UTCms();
+    let target = getTomorrowAt(TARGET_HOUR, TARGET_MIN);
+
+    // If you open the page just before midnight, ensure target is truly "tomorrow"
+    // relative to *now* every tick (keeps semantics correct across midnight).
+    function refreshTargetIfRolledOver(now) {
+      // When today changed (midnight passed), rebuild the "tomorrow" target.
+      if (now.getDate() !== new Date(now.getTime() + 1000).getDate()) {
+        target = getTomorrowAt(TARGET_HOUR, TARGET_MIN);
+      }
+    }
 
     const elMin = document.getElementById('minutes');
     const elSec = document.getElementById('seconds');
     const done  = document.getElementById('done');
-    const meta  = document.getElementById('meta');
 
-    function two(n){ return n.toString().padStart(2,'0'); }
+    function two(n) { return n.toString().padStart(2, '0'); }
+    let lastShown = { m: null, s: null };
 
-    // Show meta line so you can confirm the target time
-    (function showMeta() {
-      const targetLocal = new Date(targetUtcMs);
-      const targetET = new Intl.DateTimeFormat('en-US', {
-        timeZone: 'America/New_York',
-        year: 'numeric', month: 'short', day: '2-digit',
-        hour: '2-digit', minute: '2-digit', second: '2-digit',
-        hour12: true, timeZoneName: 'short'
-      }).format(targetLocal);
-      meta.textContent = `Target (ET): ${targetET}`;
+    function tick() {
+      const now = new Date();
+      refreshTargetIfRolledOver(now);
+
+      const diffMs = target - now;
+      if (diffMs <= 0) {
+        elMin.textContent = '00';
+        elSec.textContent = '00';
+        done.hidden = false;
+        return;
+      }
+
+      const totalSeconds = Math.floor(diffMs / 1000);
+      const minutes = Math.floor((totalSeconds % 3600) / 60); // show only minutes within the hour
+      const seconds = totalSeconds % 60;
+
+      if (minutes !== lastShown.m) {
+        elMin.textContent = two(minutes);
+        elMin.classList.remove('flash'); void elMin.offsetWidth; elMin.classList.add('flash');
+        lastShown.m = minutes;
+      }
+      if (seconds !== lastShown.s) {
+        elSec.textContent = two(seconds);
+        elSec.classList.remove('flash'); void elSec.offsetWidth; elSec.classList.add('flash');
+        lastShown.s = seconds;
+      }
+      // Keep going
+      requestAnimationFrame(() => setTimeout(tick, 250));
+    }
+
+    tick();
+  </script>
+</body>
+</html>
